@@ -57,7 +57,11 @@
   },
   "roles": {
     "default": {
-      "limits": {}
+      "limits": {
+        "gpt-4o": {
+          "minute": "100"
+        }
+      }
     }
   }
 }
